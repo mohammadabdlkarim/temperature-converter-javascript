@@ -1,0 +1,68 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.box {
+  background-color: #eee;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 60%;
+  margin-right: 25%;
+  margin-bottom: 25%;
+  border: 5px solid #eee;
+  border-radius: 15px;
+}
+
+h4 {
+  position: relative;
+  left: 35%;
+}
+
+.unit {
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+select {
+  cursor: pointer;
+}
+
+select,
+input {
+  background-color: #df2059;
+  color: #fff;
+  display: block;
+  width: 175px;
+  border: 1px solid rgb(155, 16, 16);
+  border-radius: 50px;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  background-color: hsl(216, 100%, 50%);
+  border-radius: 10px;
+  border-color: hsl(216, 100%, 50%);
+  height: 40px;
+  width: 125px;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+.btn-primary:active {
+  transform: scale(0.9);
+  transition: 0.2s ease-out;
+}
